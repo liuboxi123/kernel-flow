@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KernelFlow</title>
+    <link rel="stylesheet" href="../css/main.css"></link>
+</head>
+<body>
+    <div id="main">
+        <p><span>SEND 10 ROOT REQUEST TO SERVER</span><button id="root-task">SEND</button></p>
+        <p><span>SEND 1 K ADMIN REQUEST TO SERVER</span><button id="admin-task">SEND</button></p>
+        <p><span>SEND BINARY PACKETS TO SERVER</span><button id="binary-task">SEND</button></p>
+        <p><span>SEND LOGIN REQUEST TO SERVER</span><button id="login-task">SEND</button></p>
+        <p><span>SEND 1 M PAY REQUEST TO SERVER</span><button id="pay-task">SEND</button></p>
+        <p><span>SEND 1 M SIMPLE REQUEST TO SERVER</span><button id="simple-task">SEND</button></p>
+        F:
+        cd Redis
+        redis-server.exe redis.windows.conf
+    </div>
+</body>
+<script src="../js/fetch.js"></script>
+<script src="../js/main.js"></script>
+</html>
